@@ -11,10 +11,11 @@ import base64
 from fpdf import FPDF
 import os
 from pdfminer.high_level import extract_text
+from dotenv import load_dotenv
 
 pdf_path = "Data/"
-parts = ["s", "k", "-", "ggb", "h0U", "Uuo", "RLeO","SBfe", "OKfT3Blb","kFJj", "ZrAb","HlF", "Rxt4","Aeq", "9Fe9p"]
-order = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+load_dotenv()
+api_key = os.environ.get('API_KEY')
 
 def text_to_pdf(text, filename):
     global pdf_path
@@ -37,12 +38,8 @@ def get_pdf_download_link(pdf_path, name):
 
 @st.cache_data(show_spinner=False)
 def cooking(recipe):
-    
-    def concatenate_key(parts, order):
-        return ''.join(parts[i - 1] for i in order)
-    
-    global parts, order
-    openai.api_key = concatenate_key(parts, order)
+    global api_key
+    openai.api_key = api_key
     
     prompt = f"""
     Please provide a detailed recipe for {recipe}.

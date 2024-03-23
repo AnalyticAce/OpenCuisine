@@ -6,3 +6,4 @@ PyPDF2
 Requests
 streamlit
 streamlit_option_menu
+dotenv
