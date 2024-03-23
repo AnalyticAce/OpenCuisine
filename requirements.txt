@@ -1,0 +1,8 @@
+fpdf
+openai
+pdfminer.six
+Pillow
+PyPDF2
+Requests
+streamlit
+streamlit_option_menu
