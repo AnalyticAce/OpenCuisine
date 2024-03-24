@@ -16,7 +16,6 @@ The goal of Open Kitchen is to revolutionize cooking by providing unique, AI-gen
 3. Install the required packages using pip:
 ```
 pip install -r requirements.txt
-
 ```
 
 4. Run the app using Streamlit:
@@ -38,4 +37,3 @@ Please note that this will only uninstall the packages listed in the `requiremen
 ## Disclaimer
 
 This app uses OpenAI's GPT-3 model, which may generate unpredictable responses. Always use caution and common sense when following the generated recipes.
-```
