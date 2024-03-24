@@ -9,7 +9,7 @@ The goal of Open Kitchen is to revolutionize cooking by providing unique, AI-gen
 
 ## How to Run the App
 
-1. Ensure you have Python installed on your machine. You can download Python here.
+1. Ensure you have Python installed on your machine. You can download Python [here](https://www.python.org/downloads/).
 
 2. Clone the repository to your local machine using `git clone git@github.com:AnalyticAce/OpenCuisine.git`.
 
