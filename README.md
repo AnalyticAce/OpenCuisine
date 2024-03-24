@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 4. Run the app using Streamlit:
 ```
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## How to Uninstall the App
