@@ -1,4 +1,6 @@
 
+![Logo](logo.png)
+
 # Open Kitchen
 
 Open Kitchen is an AI-powered application that generates personalized recipes. It leverages the power of OpenAI to provide detailed recipes based on user input.
